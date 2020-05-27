@@ -211,7 +211,7 @@ model.compile(loss='categorical_crossentropy',
 #model.fit(train_ros_data, train_ros_labels, 
 #          batch_size=32, nb_epoch=10, verbose=1)
 
-se_callback = SnapshotEnsemble(n_models=1, n_epochs_per_model=10, lr_max=.003)
+se_callback = SnapshotEnsemble(n_models=1, n_epochs_per_model=10, lr_max=.03)
 history = model.fit_generator(
             imagegen.flow(train_ros_data, train_ros_labels, 
             batch_size=32), 
