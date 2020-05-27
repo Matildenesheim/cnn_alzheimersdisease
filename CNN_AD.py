@@ -247,7 +247,7 @@ plt.legend()
 plt.show()
 
 import seaborn as sns
-from sklearn.metrics import confusion_matrix, f1_score
+from sklearn.metrics import confusion_matrix
 
 models = se_callback.load_ensemble()
 def predict(models_ensemble, data):
@@ -260,10 +260,6 @@ def predict(models_ensemble, data):
 y_true = np.argmax(test_labels, axis=1)
 y_pred = predict(models, test_data)
 
-cm = confusion_matrix(y_true, y_pred)
-print('F1s = %.3f; %.3f' % (f1_score(y_true, y_pred, average='micro'), f1_score(y_true, y_pred, average='macro')))
-print(cm)
-
 #normalized confusion matrix - telling us how the labeles are being predicted. the degree of (in)correctly predicted classes. 
 cm_norm = cm.copy().astype(float)
 for i in range(cm_norm.shape[0]):
@@ -271,18 +267,11 @@ for i in range(cm_norm.shape[0]):
 
 print(cm_norm)
 plt.figure(1)
-
-plt.subplot(121)
-plt.title('Confusion matrix')
-plt.gcf().set_size_inches(15, 8)
-sns.heatmap(pd.DataFrame(cm, index=CLASSES, columns=CLASSES), annot=True, fmt='d', cbar=False,figsize=(8,6))
-
 plt.subplot(122)
 plt.title('Normalized confusion matrix')
 sns.heatmap(pd.DataFrame(cm_norm, index=CLASSES, columns=CLASSES), annot=True, fmt='.1f', cbar=False)
 
 plt.show()
-#F1s = 0.676; 0.583
 
 
 
