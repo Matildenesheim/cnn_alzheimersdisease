@@ -6,7 +6,7 @@ a CNN classifying severities of dementia in Alzheimer's disease (4 classes), pre
 The CNN obtained an accuracy of 0.56 for predicting stages of severity in Alzheimer’s disease following the tenth epoch (loss value ≈ 1.1), performing well above chance level. Higher accuracies and lower loss values were obtained in the seventh (accuracy ≈ 0.67, loss value ≈ 0.77) and eighth epoch (accuracy ≈ 0.67, loss value ≈ 0.74).
 As the CNN produced an accuracy of 0.56 in a multiclass classification task, this presents promising results for further research in the area of classifying the severity of dementia in Alzheimer’s disease using MRI images.
 
-<div align="center"><img src="img/dementia.png.png"/></div>
+<div align="center"><img src="img/dementia.png"/></div>
  
 The dataset used for this classification has been retrieved from Kaggle and can be retrieved from the following link: https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images
 
