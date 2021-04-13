@@ -1,3 +1,4 @@
+[![describtor - e.g. python version](https://img.shields.io/badge/Python%20Version->=3.6-blue)](www.desired_reference.com)
 # 🧠 Classifying the Severity of Dementia in Alzheimer’s Disease:
 ### Using Convolutional Neural Network in a Multiclass Classification Task
 
