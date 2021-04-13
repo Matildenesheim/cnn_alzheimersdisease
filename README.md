@@ -12,7 +12,7 @@ As the CNN produced an accuracy of 0.56 in a multiclass classification task, thi
 The dataset used for this classification has been retrieved from Kaggle and can be found [here.](https://www.kaggle.com/tourist55/alzheimers-dataset-4-class-of-images)
 
 ### ✉️ Contact
-For further information feel free to connect with one of the authors Matilde Nesheim om [matildenesheim@hotmail.com](mailto:matildenesheim@hotmail.com?subject=[GitHub]%20Dementia-CNN) or on LinkedIn:
+For further information feel free to connect with one of the authors Matilde Nesheim on [matildenesheim@hotmail.com](mailto:matildenesheim@hotmail.com?subject=[GitHub]%20Dementia-CNN) or on LinkedIn:
 
 [<img align="left" alt="matildenesheim | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
