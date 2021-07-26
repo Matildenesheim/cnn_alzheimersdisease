@@ -20,8 +20,8 @@ from keras.regularizers import l2
 from keras.optimizers import SGD
 
 #setting directory for images, setting image size, defining classes
-TRAIN_DIR = '/Users/matildenesheim/Desktop/OneDrive/Cognitive_Science_Master/secondsemester/Datascience/exam/data2/train/'
-TEST_DIR = '/Users/matildenesheim/Desktop/OneDrive/Cognitive_Science_Master/secondsemester/Datascience/exam/data2/test/'
+TRAIN_DIR = '/directory/train/'
+TEST_DIR = '/directory/test/'
 IMAGE_SIZE = 176
 CLASSES = [
     'NonDemented',
